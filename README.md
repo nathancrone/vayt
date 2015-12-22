@@ -1,3 +1,3 @@
 # vayt
-AWS demo code
-sdfsdf
+AWS demo code  
+A place to store code related to AWS. 
