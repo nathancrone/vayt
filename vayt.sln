@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vayt.docs", "vayt.docs", "{C9942EE6-CB40-4DAC-900F-1113FDB07040}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vayt.iam", "vayt.iam", "{FC73DF62-A923-4852-B3B3-BAB7FEFE6491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vayt.iam.native", "vayt.iam.native\vayt.iam.native.csproj", "{11C12687-D4C1-4B66-BDEB-5648449A4ACE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vayt.iam.sdk", "vayt.iam.sdk\vayt.iam.sdk.csproj", "{C34B4882-0280-4EFD-A12A-6E575A93D2B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11C12687-D4C1-4B66-BDEB-5648449A4ACE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11C12687-D4C1-4B66-BDEB-5648449A4ACE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11C12687-D4C1-4B66-BDEB-5648449A4ACE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11C12687-D4C1-4B66-BDEB-5648449A4ACE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34B4882-0280-4EFD-A12A-6E575A93D2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C34B4882-0280-4EFD-A12A-6E575A93D2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C34B4882-0280-4EFD-A12A-6E575A93D2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C34B4882-0280-4EFD-A12A-6E575A93D2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11C12687-D4C1-4B66-BDEB-5648449A4ACE} = {FC73DF62-A923-4852-B3B3-BAB7FEFE6491}
+		{C34B4882-0280-4EFD-A12A-6E575A93D2B6} = {FC73DF62-A923-4852-B3B3-BAB7FEFE6491}
+	EndGlobalSection
+EndGlobal
