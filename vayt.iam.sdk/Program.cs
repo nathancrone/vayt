@@ -53,19 +53,19 @@ namespace vayt.iam.sdk
                 UserName = "S3ReadOnlyAccessUser"
             }).User;
 
-            //// Assign the read only policy to the new user
-            //iamClient.PutUserPolicy(new PutUserPolicyRequest
-            //{
-            //    UserName = readOnlyUser.UserName,
-            //    PolicyName = "S3ReadOnlyAccess",
-            //    PolicyDocument = S3_READONLY_POLICY
-            //});
+            // Assign the read only policy to the new user
+            iamClient.PutUserPolicy(new PutUserPolicyRequest
+            {
+                UserName = readOnlyUser.UserName,
+                PolicyName = "S3ReadOnlyAccess",
+                PolicyDocument = S3_READONLY_POLICY
+            });
 
-            //// Create an access key for the IAM user that can be used by the SDK
-            //var accessKey = iamClient.CreateAccessKey(new CreateAccessKeyRequest
-            //{
-            //    UserName = readOnlyUser.UserName
-            //}).AccessKey;
+            // Create an access key for the IAM user that can be used by the SDK
+            var accessKey = iamClient.CreateAccessKey(new CreateAccessKeyRequest
+            {
+                UserName = readOnlyUser.UserName
+            }).AccessKey;
 
             //// Create an S3 client with the new IAM user's access key
             //var s3Client = new AmazonS3Client(accessKey.AccessKeyId, accessKey.SecretAccessKey);
