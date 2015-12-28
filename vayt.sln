@@ -15,6 +15,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vayt.iam.native", "vayt.iam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vayt.iam.sdk", "vayt.iam.sdk\vayt.iam.sdk.csproj", "{C34B4882-0280-4EFD-A12A-6E575A93D2B6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vayt.swf", "vayt.swf", "{885CB275-6833-423F-B811-17909620F60D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vayt.swf.sdk", "vayt.swf.sdk\vayt.swf.sdk.csproj", "{BC1F4CC7-DD36-410D-A39F-AA5630EFB9D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vayt.ec2", "vayt.ec2", "{491253C6-74FD-4251-9A3F-16F748AE6E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vayt.ec2.native", "vayt.ec2.native\vayt.ec2.native.csproj", "{B7E7985A-9327-4D35-88EB-10225318ADAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "vayt.ec2.sdk", "vayt.ec2.sdk\vayt.ec2.sdk.csproj", "{2ECCA326-DA2E-4B3E-8152-459FF716B7FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +39,18 @@ Global
 		{C34B4882-0280-4EFD-A12A-6E575A93D2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C34B4882-0280-4EFD-A12A-6E575A93D2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C34B4882-0280-4EFD-A12A-6E575A93D2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1F4CC7-DD36-410D-A39F-AA5630EFB9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1F4CC7-DD36-410D-A39F-AA5630EFB9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1F4CC7-DD36-410D-A39F-AA5630EFB9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1F4CC7-DD36-410D-A39F-AA5630EFB9D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E7985A-9327-4D35-88EB-10225318ADAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E7985A-9327-4D35-88EB-10225318ADAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E7985A-9327-4D35-88EB-10225318ADAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E7985A-9327-4D35-88EB-10225318ADAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ECCA326-DA2E-4B3E-8152-459FF716B7FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ECCA326-DA2E-4B3E-8152-459FF716B7FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ECCA326-DA2E-4B3E-8152-459FF716B7FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ECCA326-DA2E-4B3E-8152-459FF716B7FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,5 +58,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{11C12687-D4C1-4B66-BDEB-5648449A4ACE} = {FC73DF62-A923-4852-B3B3-BAB7FEFE6491}
 		{C34B4882-0280-4EFD-A12A-6E575A93D2B6} = {FC73DF62-A923-4852-B3B3-BAB7FEFE6491}
+		{BC1F4CC7-DD36-410D-A39F-AA5630EFB9D8} = {885CB275-6833-423F-B811-17909620F60D}
+		{B7E7985A-9327-4D35-88EB-10225318ADAA} = {491253C6-74FD-4251-9A3F-16F748AE6E59}
+		{2ECCA326-DA2E-4B3E-8152-459FF716B7FC} = {491253C6-74FD-4251-9A3F-16F748AE6E59}
 	EndGlobalSection
 EndGlobal
