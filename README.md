@@ -8,4 +8,8 @@ A place to store code related to AWS.
 - "Security Groups" are firewall rules
 - When calling "DescribeInstances" the url must be changed depending on the region you are querying.
 
+##S3 - Amazon SImple Storage Service
+
 ##SWF - Simple Workflow  
+
+
