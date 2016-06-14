@@ -28,7 +28,7 @@ namespace vayt.s3.native
 
             string stringToConvert = "GET\n" +      //HTTP verb
             "\n" +                                  //content-md5
-            "\n" +                                  //conten-type
+            "\n" +                                  //content-type
             "\n" +                                  //date
             "x-amz-date:" + timestamp + "\n" +      //optionally, AMZ headers
             "/";                                    //resource    
