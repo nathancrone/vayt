@@ -19,7 +19,7 @@ namespace vayt.s3.native
             //ListBuckets();
             //GetBucketProperty();
             //GetBucketItems();
-            //UploadToBucket();
+            UploadToBucket();
         }
 
         private static void ListBuckets()
@@ -33,7 +33,7 @@ namespace vayt.s3.native
             "x-amz-date:" + timestamp + "\n" +      //optionally, AMZ headers
             "/";                                    //resource    
 
-            string awsPrivateKey = "XXX";
+            string awsPrivateKey = "YYY";
             Encoding ae = new UTF8Encoding();
             HMACSHA1 signature = new HMACSHA1();
             signature.Key = ae.GetBytes(awsPrivateKey);
@@ -165,12 +165,12 @@ namespace vayt.s3.native
 
             string stringToConvert = "PUT\n" +      //HTTP verb
             "\n" +                                  //content-md5
-            "text/plain\n" +                        //conten-type
+            "text/plain\n" +                        //content-type
             "\n" +                                  //date
             "x-amz-date:" + timestamp + "\n" +      //optionally, AMZ headers
             "/kd5t/demo.txt";             //resource    
 
-            string awsPrivateKey = "XXX";
+            string awsPrivateKey = "YYY";
             Encoding ae = new UTF8Encoding();
             HMACSHA1 signature = new HMACSHA1();
             signature.Key = ae.GetBytes(awsPrivateKey);
